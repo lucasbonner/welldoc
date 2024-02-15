@@ -1,0 +1,19 @@
+.logos {
+    width:147px;
+    height:111px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#holder {
+    text-align: center;
+    left: 0;
+    right: 0;
+}
+
+.inner {
+    display: inline-block;
+}
