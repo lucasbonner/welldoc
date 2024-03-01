@@ -12,3 +12,15 @@
     font-weight: 400;
 }
 
+.list-holder {
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
+
+.list-item {
+    list-style-image:url("/public/icons/list.png")
+}
