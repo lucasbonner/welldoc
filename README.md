@@ -1,1 +1,1 @@
-Static website for personalized health using React & NextJS
+Sample static website for personalized health using React & NextJS
