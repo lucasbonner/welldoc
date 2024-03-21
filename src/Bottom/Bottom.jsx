@@ -3,7 +3,7 @@ import './Bottom.scss'
 
 export default function Bottom() {
     return (
-        <div className="fixed-bottom" id="holder">
+        <div className="footer" id="holder">
             <div className="inner">
                 <div className="logo-container">
                     <img style={{padding: 5}} className="logos" src="logos/fellowship.jpg"/>
