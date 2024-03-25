@@ -24,3 +24,38 @@ ul {
 .list-item {
     list-style-image:url("/public/icons/list.png")
 }
+
+.healthHolder {
+    width: 50%;
+    margin-left: 475px;
+}
+
+.informationHolderHormone {
+    width: 440px;
+    min-height: 356px;
+    position: relative;
+    background-color: #FAC168;
+    border-radius: 2px;
+    // margin-right: -10000px;
+    // margin-top:806px;
+}
+
+.informationHolderMetabolic {
+    width: 440px;
+    min-height: 356px;
+    position: relative;
+    background-color: #D9E021;
+    border-radius: 2px;
+    // margin-right: -10000px;
+    // margin-top:806px;
+}
+
+.informationTitle {
+    font-weight: 500;
+    padding-top: 20px;
+    color: #2C8396;
+    font-size: 28px;
+    line-height: 42px;
+    padding-right: 20px;
+    padding-left: 20px;
+}

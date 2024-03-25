@@ -39,16 +39,36 @@ export default function Main() {
                 </ul>
             </div>
             <h2 className="text-tag">Your health. Your Way</h2>
-            <div className="paragraph-holder">
+            <div className="healthHolder">
                 <p className="chronic-paragraph">
                 Your care begins with an extended consultation with Dr. Bonner, during which samples will be taken for lab work, and you will discuss your medical history, symptoms, goals, and expectations.  Dr. Bonner will then recommend which Personalized Wellness program best suits your needs:
                 </p>
-                <p className="chronic-paragraph">
-                Take Your First Step To Feeling Well Again
-                Your Best Health at Any Age
-
-                </p>
             </div>
+            <div className="informationHolderHormone">
+                <h1 className="informationTitle">
+                    Hormone Balance
+                </h1>
+                <p>
+                For those whose symptoms are primarily due to unbalanced or suboptimal hormone levels but who otherwise are happy with their health and wellness.
+                </p>
+                <button>
+                    Learn More about The Hormone Balance Program
+                </button>
+            </div>
+            <div className="informationHolderMetabolic">
+                <h1 className="informationTitle">
+                    Metabolic Reset
+                </h1>
+                <p>
+                For those looking for a comprehensive wellness solution that includes hormone balancing, diet and lifestyle changes, pharmaceutical grade supplementation and genetic testing.
+                </p>
+                <button>
+                    Learn More about The Metabolic Reset Program
+                </button>
+            </div>
+            <button>
+                Take your first step to Feeling Well Again
+            </button>
         </div>
     )
 }
