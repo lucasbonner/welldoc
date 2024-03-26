@@ -33,9 +33,9 @@ ul {
 .informationHolderHormone {
     width: 440px;
     min-height: 356px;
-    position: relative;
     background-color: #FAC168;
-    border-radius: 2px;
+    display: inline-block;
+    margin-left: 475px;
     // margin-right: -10000px;
     // margin-top:806px;
 }
@@ -43,9 +43,9 @@ ul {
 .informationHolderMetabolic {
     width: 440px;
     min-height: 356px;
-    position: relative;
     background-color: #D9E021;
-    border-radius: 2px;
+    display: inline-block;
+    margin-left: 100px;
     // margin-right: -10000px;
     // margin-top:806px;
 }
@@ -58,4 +58,30 @@ ul {
     line-height: 42px;
     padding-right: 20px;
     padding-left: 20px;
+    text-align: center;
+}
+
+.informationParagraph {
+    text-align: center;
+}
+
+.genericButton {
+    background-color: #2C8396;
+    border-color: #FFFFFF;
+    border-radius: 10px;
+    border-style: solid;
+    padding: 4px;
+    margin: 15px;
+}
+
+.buttonParagraph {
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    padding: 6px;
+}
+
+.buttonHolder {
+    text-align: center;
 }
