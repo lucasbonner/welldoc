@@ -3,6 +3,9 @@ import './Overview.scss';
 
 export default function Overview() {
     return (
-        <div></div>
+        <div className="overviewContainer">
+            <img className="overviewImage" src="logos/overview.jpg" />
+            <h2 className="overviewText">Your Best Health at Any Age</h2>
+        </div>
     )
 }
