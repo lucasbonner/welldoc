@@ -11,8 +11,10 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 export default function App() {
     return (
         <div>
-            <TopNavigationbar />
-            <MainNavigationbar />
+            <div className="headerHolder">
+                <TopNavigationbar />
+                <MainNavigationbar />
+            </div>
             <Splash />
             <Main />
             <Overview />

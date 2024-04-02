@@ -5,7 +5,7 @@
 
 .logo-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 #holder {
@@ -16,8 +16,14 @@
 
 .inner {
     display: inline-block;
+    padding-bottom: 100px;
 }
 
 .footer {
-    padding-top: 100px;
+    padding: 20px;
+    border: #D9E021;
+    border-style: solid;
+    border-width: 0px;
+    border-top-width: 5px;
+    background-color: #2a7d90;
 }

@@ -4,3 +4,13 @@
     background-position: top right 20%;
     background-size: 300px;
 }
+
+.headerHolder {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    border: #D9E021;
+    border-style: solid;
+    border-width: 0px;
+    border-bottom-width: 3px;
+}
