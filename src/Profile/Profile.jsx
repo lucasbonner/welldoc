@@ -29,10 +29,10 @@ export default function Profile() {
                     <li>
                         Personalized Wellness Founder & CEO
                     </li>
+                    <button className="profileButton">
+                        More about Dr.Bonner
+                    </button>
                 </ul>
-                <button className="profileButton">
-                    More about Dr.Bonner
-                </button>
             </div>
         </div>
     )

@@ -21,6 +21,8 @@
 
 .profileList {
     list-style: none;
+    text-align: left;
+
 }
 
 .profileButton {
@@ -32,4 +34,15 @@
     padding: 6px;
     border-style: solid;
     border-radius: 10px;
+}
+
+.accreditationsHolder {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin-left: 300px;
+}
+
+li {
+    margin: 5px;
 }
