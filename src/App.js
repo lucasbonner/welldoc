@@ -19,7 +19,9 @@ export default function App() {
             <Main />
             <Overview />
             <div className="bottomContainer">
-                <Profile />
+                <div className="profileContainer">
+                    <Profile />
+                </div>
                 <Bottom />
             </div>
         </div>

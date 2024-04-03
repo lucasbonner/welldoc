@@ -1,11 +1,14 @@
 .logos {
     width:147px;
     height:111px;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: 0;
 }
 
 .logo-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 #holder {
@@ -25,5 +28,13 @@
     border-style: solid;
     border-width: 0px;
     border-top-width: 5px;
-    background-color: #2a7d90;
 }
+
+p {
+    color: white;
+}
+
+.textHolder {
+    margin-top: 100px;
+}
+

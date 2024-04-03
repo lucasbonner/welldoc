@@ -10,6 +10,7 @@ export default function Bottom() {
                     <img style={{padding: 5}} className="logos" src="logos/anesthesia_logo.png"/>
                     <img style={{padding: 5}} className="logos" src="logos/abaarm.jpg"/>
                 </div>
+                <div className="textHolder">
                     <p>
                         © 2018 Personalized Wellness.  All Rights Reserved. 120.   
                     </p>
@@ -19,6 +20,7 @@ export default function Bottom() {
                     <p>
                         Website by Q Group Web and MAD Design.   
                     </p>
+                </div>
             </div>
         </div>
     )
