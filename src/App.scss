@@ -1,10 +1,47 @@
+// div.profileContainer {
+//     background-color: white;
+// }
+
+// div.footerContainer {
+//     background-color: #2a7d90; 
+// }
+
+// .bottomContainer {
+//     background-image:url('../public/icons/pw-leafman-evencolor-u145739-fr.png');
+//     background-repeat: no-repeat;
+//     background-position: top right 20%;
+//     background-size: 300px;
+// }
+
+// .bottomContainer::before {
+//     background-color: #2a7d90;
+// }
+
 .bottomContainer {
-    background-color: #2a7d90;
-    background-image:url('../public/icons/pw-leafman-evencolor-u145739-fr.png');
-    background-repeat: no-repeat;
-    background-position: top right 20%;
-    background-size: 300px;
+    position: relative;
 }
+
+.profileContainer {
+    background-color: white;
+}
+
+.footerContainer {
+    background-color: #2a7d90;
+}
+
+.bottomContainer::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 50%; /* Width should match the width of individual containers */
+    background-image: url('../public/icons/pw-leafman-evencolor-u145739-fr.png');
+    background-repeat: no-repeat;
+    background-position: top right 20%; /* Adjust as needed */
+    background-size: 300px; /* Adjust the size of the image */
+}
+
 
 .headerHolder {
     position: fixed;

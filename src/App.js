@@ -22,7 +22,9 @@ export default function App() {
                 <div className="profileContainer">
                     <Profile />
                 </div>
-                <Bottom />
+                <div className="footerContainer">
+                    <Bottom />
+                </div>
             </div>
         </div>
     )
