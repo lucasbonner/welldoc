@@ -1,5 +1,6 @@
 .chronic-paragraph {
     text-align: center;
+    color: black;
 }
 
 .text-tag {
@@ -22,7 +23,13 @@ ul {
 }
 
 .list-item {
-    list-style-image:url("/public/icons/list.png")
+    list-style-image:url("/public/icons/list.png");
+}
+
+.listSpan {
+    top: -10px; 
+    left: -10px;
+    position: relative;
 }
 
 .healthHolder {

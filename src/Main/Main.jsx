@@ -16,25 +16,39 @@ export default function Main() {
             <div className="list-holder">
                 <ul>
                     <li className="list-item">
-                        Lack of energy
+                        <span className="listSpan">
+                            Lack of energy
+                        </span>
                     </li>
                     <li className="list-item">
-                        Difficulty getting to sleep or staying asleep
+                        <span className="listSpan">
+                            Difficulty getting to sleep or staying asleep
+                        </ span>
                     </li>
                     <li className="list-item">
-                        Reduced mental focus and memory (sometimes known as "brain fog")
+                        <span className="listSpan">
+                            Reduced mental focus and memory (sometimes known as "brain fog")
+                        </span>
                     </li>
                     <li className="list-item">
-                        Irritability or mood swings
+                        <span className="listSpan">
+                            Irritability or mood swings
+                        </span>
                     </li>
                     <li className="list-item">
-                        Hot flashes or night sweats
+                        <span className="listSpan">
+                            Hot flashes or night sweats
+                        </span>
                     </li>
                     <li className="list-item">
-                        Inability to lose weight even though you have a healthy diet and exercising
+                        <span className="listSpan">
+                            Inability to lose weight even though you have a healthy diet and exercising
+                        </span>
                     </li>
                     <li className="list-item">
-                        Decreased sexual desire and performance
+                        <span className="listSpan">
+                            Decreased sexual desire and performance
+                        </span>
                     </li>
                 </ul>
             </div>
