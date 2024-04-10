@@ -1,7 +1,7 @@
 import React from 'react';
-import './Bottom.scss'
+import './Footer.scss'
 
-export default function Bottom() {
+export default function Footer() {
     return (
         <div className="footerHolder navbar-fixed-bottom" id="holder">
             <footer className="inner footer">

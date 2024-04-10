@@ -1,6 +1,6 @@
 import TopNavigationbar from './TopNavbar/TopNavbar.jsx';
 import MainNavigationbar from './MainNavbar/MainNavbar.jsx';
-import Bottom from './Bottom/Bottom.jsx';
+import Footer from './Footer/Footer.jsx';
 import Splash from './Splash/Splash.jsx';
 import Main from './Main/Main.jsx';
 import Overview from './Overview/Overview.jsx'
@@ -23,7 +23,7 @@ export default function App() {
                     <Profile />
                 </div>
                 <div className="footerContainer">
-                    <Bottom />
+                    <Footer />
                 </div>
             </div>
         </div>
