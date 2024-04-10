@@ -3,8 +3,8 @@ import './Bottom.scss'
 
 export default function Bottom() {
     return (
-        <div className="footer" id="holder">
-            <div className="inner">
+        <div className="footerHolder navbar-fixed-bottom" id="holder">
+            <footer className="inner footer">
                 <div className="logo-container">
                     <img style={{padding: 5}} className="logos" src="logos/fellowship.jpg"/>
                     <img style={{padding: 5}} className="logos" src="logos/anesthesia_logo.png"/>
@@ -21,7 +21,7 @@ export default function Bottom() {
                         Website by Q Group Web and MAD Design.   
                     </p>
                 </div>
-            </div>
+            </footer>
         </div>
     )
 }
