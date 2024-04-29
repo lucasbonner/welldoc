@@ -5,7 +5,7 @@ export default function Footer() {
     return (
         <div className="footerHolder navbar-fixed-bottom" id="holder">
             <footer className="inner footer">
-                <div className="logo-container">
+                <div className="logoContainer">
                     <img style={{padding: 5}} className="logos" src="logos/fellowship.jpg"/>
                     <img style={{padding: 5}} className="logos" src="logos/anesthesia_logo.png"/>
                     <img style={{padding: 5}} className="logos" src="logos/abaarm.jpg"/>

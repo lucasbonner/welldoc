@@ -10,7 +10,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 export default function App() {
     return (
-        <div>
+        <div className="appHolder">
             <div className="headerHolder">
                 <TopNavigationbar />
                 <MainNavigationbar />

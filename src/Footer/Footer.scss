@@ -6,7 +6,7 @@
     margin-bottom: 0;
 }
 
-.logo-container {
+.logoContainer {
     display: flex;
     justify-content: space-between;
     padding-top: 50px;
@@ -30,6 +30,7 @@
     border-width: 0px;
     border-top-width: 5px;
     border-bottom: 0px;
+    min-height: 50vh;
 }
 
 p {
