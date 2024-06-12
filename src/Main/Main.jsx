@@ -14,7 +14,7 @@ export default function Main() {
                 </p>
             </div>
             <div className="list-holder">
-                <ul>
+                <ul className="leafList">
                     <li className="list-item">
                         <span className="listSpan">
                             Lack of energy

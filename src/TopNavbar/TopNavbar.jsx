@@ -15,7 +15,7 @@ export default function TopNavigationbar() {
                 <Nav.Link href="#link" >Functional Medicine</Nav.Link>
                 <Nav.Link href="#link">Chronic Illness</Nav.Link>
                 <Nav.Link href="#link">Dr. Bonner</Nav.Link>
-                <Nav.Link href="#link">Store</Nav.Link>
+                <Nav.Link href="https://wellevate.me/#/patient/login">Store</Nav.Link>
                 <Nav.Link href="#link"><img style={{padding: 5}} className="icon" src="icons/person-circle.svg"/>Patient Login</Nav.Link>
                 <Nav.Link href="#home"><img style={{padding: 5}} className="icon" src="icons/telephone.svg"/>Call 601-898-0911</Nav.Link>
             </Nav>
